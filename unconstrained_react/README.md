@@ -39,3 +39,16 @@ python main.py
 - issue_meal_voucher
 - offer_travel_credit
 - notify_hotel
+
+## Project Structure
+
+unconstrained_react/
+│
+├── data/
+│   └── airline_data.json
+├── main.py
+├── prompt.py
+├── tools.py
+├── requirements.txt
+├── README.md
+└── .env.example
