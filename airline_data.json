@@ -1,0 +1,101 @@
+{
+  "cases": {
+    "case_1": {
+      "delay_hours": 6,
+      "delay_reason": "Bad weather",
+      "has_connecting_flight": true,
+      "traveling_with_family": true,
+      "wants_earliest_flight": true,
+      "available_flight_information": false
+    },
+
+    "case_2": {
+      "delay_hours": 10,
+      "delay_reason": "Technical issue",
+      "has_connecting_flight": false,
+      "traveling_with_family": false,
+      "wants_earliest_flight": true,
+      "available_flight_information": false
+    },
+
+    "case_3": {
+      "delay_hours": 2,
+      "delay_reason": "Airport congestion",
+      "has_connecting_flight": false,
+      "traveling_with_family": false,
+      "wants_earliest_flight": true,
+      "available_flight_information": false
+    },
+
+    "case_4": {
+      "delay_hours": 4,
+      "delay_reason": "Bad weather",
+      "has_connecting_flight": true,
+      "traveling_with_family": true,
+      "wants_earliest_flight": false,
+      "available_flight_information": false
+    }
+  },
+
+  "flights": {
+    "2_hours": [
+      {
+        "flight_number": "MS110",
+        "departure": "1 hour later",
+        "destination": "Same destination",
+        "status": "Available"
+      }
+    ],
+
+    "4_hours": [
+      {
+        "flight_number": "MS118",
+        "departure": "3 hours later",
+        "destination": "Same destination",
+        "status": "Available"
+      }
+    ],
+
+    "6_hours": [
+      {
+        "flight_number": "MS245",
+        "departure": "2 hours later",
+        "destination": "Same destination",
+        "status": "Available"
+      },
+      {
+        "flight_number": "MS320",
+        "departure": "Tomorrow 8:00 AM",
+        "destination": "Same destination",
+        "status": "Available"
+      }
+    ],
+
+    "10_hours": []
+  },
+
+  "hotels": [
+    {
+      "hotel_name": "Airport Hotel",
+      "distance": "500 meters",
+      "rooms_available": true
+    },
+    {
+      "hotel_name": "Sky Inn",
+      "distance": "1.2 km",
+      "rooms_available": true
+    }
+  ],
+
+  "compensation": {
+    "meal_voucher": {
+      "message": "Meal voucher issued successfully."
+    },
+
+    "travel_credit": {
+      "amount": 150,
+      "currency": "USD",
+      "message": "$150 travel credit offered."
+    }
+  }
+}
